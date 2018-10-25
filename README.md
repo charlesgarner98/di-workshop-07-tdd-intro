@@ -66,8 +66,11 @@ Until now, we've been testing JavaScript's in-built functionality, which is kind
 Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
+add(a, b)
 
 **Describe how the existing test works**
+runs add method using numbers 2 and 3
+tests if the result to equal 5
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
@@ -78,10 +81,13 @@ Once you've seen it fail, revert your change so it's green again.
 Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
+Error as the multiply method doesn't exist
 
 **What actually happened when you ran your tests?**
+Error as the multiply method doesn't exist
 
 **Add a method to the Coolculator so the test passes green**
+Done
 
 **Uncomment the `subtract()` test and write some code to make it green**
 Remember the process: Red / Green / Refactor - is there any refactoring you could do to clean up your code?
