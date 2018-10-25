@@ -50,9 +50,12 @@ Once you understand what's going on, **ANSWER THE QUESTION IN THIS README FILE**
 Look in [`array.test.js`](test/array.test.js). This contains some tests for JavaScript's built-in Array methods.
 
 **What do the existing tests actually test (explain in english)?**
+The push function should add a number on to the end of an array, the tests, test if it has been added and if the length of the array is updated
 
 **Add a test for the `pop()` method.**
 Hint: You'll need _two_ assertions to fully test that it `pop()` works. Explain why you chose these assersions here.
+Checking it removes a 5 from the end = tests the pop functionality
+Checking it updates the length = tests for any future loops that use length
 
 > 💡 **REMINDER**: Do you need to commit your answers to the questions above?
 
